@@ -1,0 +1,69 @@
+:root {
+  --whiteColor: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Nunito";
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  margin-bottom: 2%;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 3%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3%;
+  margin: 0.7rem;
+  background-color: var(--whiteColor);
+  border-radius: 8px;
+  min-height: 100px;
+  box-shadow: rgba(134, 156, 165, 0.2) 0px 2px 8px 0px;
+}
+.middle-left {
+  display: flex;
+  flex: 50%;
+}
+
+.middle-right {
+  display: flex;
+  flex: 50%;
+}
+.wallet-top {
+  width: 100%;
+  display: flex;
+  padding-bottom: 10px;
+}
+.wallet-title {
+  width: 100%;
+}
+
+.wallet-title p {
+  font-size: 12px;
+}
+
+.wallet-icon {
+  font-size: 32px;
+  color: var(--whiteColor);
+}
+p{
+  padding-top: 20px;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
